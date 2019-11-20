@@ -1,8 +1,8 @@
-const isSafariiOS = require('./entities/context')
+const { isSafariiOS } = require('./entities/context')
 const player = require('./entities/player')
 
 const app = () => {
-    player(isSafariiOS)
+    player(isSafariiOS())
     console.log("done.")
 }
 
