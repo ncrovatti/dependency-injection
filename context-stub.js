@@ -1,0 +1,1 @@
+module.exports = {isIos : true, isSafari: true}

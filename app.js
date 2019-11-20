@@ -1,3 +1,4 @@
+// Pick and choose
 const { isSafariiOS } = require('./entities/context')
 const player = require('./entities/player')
 
@@ -6,4 +7,6 @@ const app = () => {
     console.log("done.")
 }
 
+console.log(require('./context-stub'))
 app()
+
