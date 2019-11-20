@@ -1,6 +1,5 @@
 const makeFullscreenBehavior = require("./fullscreen")
-const context = require("../../context-stub")
 
-const fullscreenBehavior = makeFullscreenBehavior(context)
+const fullscreenBehavior = makeFullscreenBehavior()
 
 module.exports = fullscreenBehavior
